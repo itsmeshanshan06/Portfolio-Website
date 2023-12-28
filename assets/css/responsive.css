@@ -1,0 +1,187 @@
+
+/* ----------------------------------------------------------------------------------------
+* Author        : Nababur
+* Template Name : Rumu - Personal Portfolio Template
+* File          : Custom Responsive CSS file
+* Version       : 1.0
+* ---------------------------------------------------------------------------------------- */
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+.hover-css figure {
+    height: auto;
+}
+.team-member figcaption ul li {
+    padding: 0px;
+}
+.team-member ul li a {
+    margin-left: 5px;
+}
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+.navbar-default .navbar-nav > li > a {font-size: 12px;font-weight: 600;padding: 17px 10px 13px;position: relative;
+}
+.navbar-brand h1 {font-size: 24px;}
+
+header nav.sticky ul.nav li a {
+    padding: 17px 10px 13px;}
+.hover-css figure {
+    height: auto;
+}
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.navbar-brand h1 {
+  font-size: 20px;
+  margin-top: 4px;
+  color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd;
+}
+
+
+.navbar-default .navbar-toggle {border-color: transparent;}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd;
+}
+#topNav {
+  background-color: #111;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #666;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{  background-color: transparent;}
+
+header nav.sticky ul.nav li a {
+  color: #ccc;
+  padding: 13px 15px;font-size: 12px;
+}
+header nav.sticky ul.nav li a:hover{
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ccc;
+  font-size: 12px;
+  padding: 13px 15px;
+}
+.navbar-default .navbar-nav>li>a:hover{color: #fff;}
+.navbar-default .navbar-nav>li>a:focus{color: #fff;}
+.navbar-default .navbar-nav>li>a:hover:after{transform: scale(1,1);-webkit-transform: scale(1,1);-moz-transform: scale(1,1);}
+
+.author_img img {
+  border-radius: 50%;
+  max-width: 150px;
+  display: block;
+}
+.center_title h2 {
+  font-size: 20px;
+}
+.center_title h2 span {
+  font-size: 25px;
+}
+.services-title h1,.about-me-title h1,.portfolio-title h1,.people-title h1,.review-title h1,.contact-title h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+
+.count_area h2,.about_me_details > h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.service-content h3 {
+    font-size: 20px;
+}
+.count_area p {
+    font-size: 15px;
+}
+.single_project{margin-bottom: 20px}
+
+.hover-css figure {
+    width: 100%;
+    height: auto;
+}
+.team-member ul li a {
+    margin-left: 12px;
+}
+
+.restart-carousel ol.carousel-indicators li {
+  border: 2px solid #ccc;
+  height: 40px;
+  width: 40px;
+}
+
+.restart-carousel ol.carousel-indicators .active {
+  border: 2px solid #454345;
+  height: 60px;
+  width: 60px;
+}
+.contact_info {
+  margin-bottom: 30px;
+}
+.info_details > h4 {
+    font-size: 15px;
+}
+.name_input{   margin-bottom: 30px;}
+.row.contact_padding {
+    margin-bottom: 25px;
+}
+.contact-title {
+    margin-bottom: 80px;
+}
+.thanks_message h1{color: #498bfc;margin: 40px auto;font-size: 18px}
+.submit_input button.btn {
+    padding: 10px 20px 10px;
+}
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.navbar-brand h1 {
+  font-size: 22px;
+}
+.center_title h2 span {
+  font-size: 35px;
+}
+
+.team-member figcaption p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.services-title h1, .about-me-title h1, .portfolio-title h1, .people-title h1, .review-title h1, .contact-title h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.count_area h2, .about_me_details > h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.submit_input button.btn {
+    padding: 10px 20px 10px;
+}
+.contact_info {
+  margin-bottom: 30px;
+}
+}
+
+
+
